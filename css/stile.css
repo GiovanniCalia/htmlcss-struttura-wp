@@ -21,3 +21,40 @@
     background-color: rgb(225, 214, 122);
     margin-top: 30px;
 }
+
+.secondo-main{
+    width: 100%;
+    height: 500px;
+    background-color: rgb(0, 134, 255);
+    margin-top: 30px;
+}
+
+.sezione-sopra-main{
+    width: 100%;
+    height: calc(100px - 20px);
+    background-color: rgb(171, 207, 231);
+    margin-bottom: 20px;
+
+}
+
+.sezione-piccola-main{
+    width: 200px;
+    height: 400px;
+    background-color: rgb(171, 207, 231);
+    float: left;
+}
+
+.sezione-grande-main{
+    width: calc(400px - 40px);
+    height: 400px;
+    background-color: rgb(171, 207, 231);
+    float: left;
+    margin: 0 20px;
+}
+
+.sezione-piccola-main-destra{
+    width: 200px;
+    height: 400px;
+    background-color: rgb(171, 207, 231);
+    float: right;
+}
