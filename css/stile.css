@@ -39,22 +39,32 @@
 
 .sezione-piccola-main{
     width: 200px;
-    height: 400px;
+    height: calc(400px - 20px);
     background-color: rgb(171, 207, 231);
     float: left;
+    margin-bottom: 20px;
 }
 
 .sezione-grande-main{
     width: calc(400px - 40px);
-    height: 400px;
+    height: calc(400px - 20px);
     background-color: rgb(171, 207, 231);
     float: left;
     margin: 0 20px;
+    
 }
 
 .sezione-piccola-main-destra{
     width: 200px;
-    height: 400px;
+    height: calc(400px - 20px);
     background-color: rgb(171, 207, 231);
     float: right;
+    margin-bottom: 20px;
+}
+
+.footer-box{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(136, 1, 253);
+    margin-top: 10px;
 }
